@@ -5,6 +5,6 @@ class Single(val aSide: Song, val bSide: Song): Music {
     }
 
     override fun getAllSongs(): List<Song> {
-        return ListOf(aSide, bSide)
+        return listOf(aSide, bSide)
     }
 }
